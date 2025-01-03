@@ -9,7 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text>This is me M Adi Siswanto start to learn react native :)</Text>
     </View>
   );
 }
