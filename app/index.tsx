@@ -1,15 +1,22 @@
-import { Text, View } from "react-native";
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>This is me M Adi Siswanto start to learn react native :)</Text>
-    </View>
-  );
+	return (
+		<View style={styles.container}>
+			<View>
+				<Text>Hello World!!! Test</Text>
+			</View>
+			<StatusBar style='auto' />
+		</View>
+	);
 }
+
+const styles = StyleSheet.create({
+	container: {
+		flex: 1,
+		backgroundColor: '#fff',
+		alignItems: 'center',
+		justifyContent: 'center',
+	},
+});
